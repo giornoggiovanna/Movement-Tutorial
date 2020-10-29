@@ -8,7 +8,8 @@ public class GameCleanerScript : MonoBehaviour
       if(other.tag == "Player"){
          print("you died");
           other.GetComponent<PlayerHealth>().MakeDead (); 
-       }
+       } else Destroy (other.gameObject);
+       
    }
 
    public void RestartGame(){

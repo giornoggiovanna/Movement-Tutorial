@@ -4,6 +4,8 @@ ScriptsOnlyBuild:
     - CameraFollows
     - CoinController
     - DestroyMe
+    - EnemyDamage
+    - EnemyMovement
     - GameCleanerScript
     - PlayerController
     - PlayerHealth
@@ -83,15 +85,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12572}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12706}
     - Class: 114
-      Script: {instanceID: 12928}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 13462}
+      Script: {instanceID: 12930}
     - Class: 114
-      Script: {instanceID: 13484}
+      Script: {instanceID: 13464}
     - Class: 114
-      Script: {instanceID: 13846}
+      Script: {instanceID: 13470}
+    - Class: 114
+      Script: {instanceID: 13488}
+    - Class: 114
+      Script: {instanceID: 13850}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -285,7 +291,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 95e8e367cc693fd5fd7b10a68240e734
+      Hash: c54b703f08f7928f579636bb03bc22d1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerHealth
@@ -349,6 +355,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: e12a93ff4ed2e54a051bcc75361776da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyMovement
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -469,6 +481,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: b25662aa7caa6436fbdcef21dfdef0ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyDamage
   - hash:
       serializedVersion: 2
       Hash: 22a048b476ffc0b726517b6e0d816dcd
